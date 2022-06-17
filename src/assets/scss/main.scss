@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "component";
+
+.resort-item-title {
+  @apply text-sm md:overflow-hidden md:text-ellipsis md:whitespace-nowrap;
+}
+
+.app-tag {
+  @apply border rounded-lg px-3 py-1 cursor-pointer;
+}
+
+.selected-tag {
+  @apply border-none bg-blue-500 text-white;
+}

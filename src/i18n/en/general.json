@@ -1,0 +1,14 @@
+{
+  "logo": "Booking app",
+  "sortBy": "Sort By",
+  "price": "Price",
+  "desc": "desc",
+  "asc": "asc",
+  "title": "Title",
+  "add": "Add",
+  "remove": "Remove",
+  "addToBucket": "Add to bucket",
+  "removeFromBucket": "Remove from bucket",
+  "home": "Home",
+  "bucket": "Bucket"
+}
