@@ -36,13 +36,14 @@ const ResortItem = (props: Props) => {
       className="resort_item_container animate__animated animate__fadeInUp"
       style={{ animationDelay: `${props.index / 6}s` }}>
       <img
-        onClick={handleResortDetail}
         src={props.resort.imageUrl}
-        className="rounded-lg w-40 md:w-full hover:scale-105 cursor-pointer"
+        className="rounded-lg w-40 md:w-full "
         alt=""
       />
       <div className="flex flex-col mx-2 md:mx-0 w-full justify-center">
-        <p className="resort-item-title">{props.resort.title}</p>
+        <p onClick={handleResortDetail} className="resort-item-title ">
+          {props.resort.title}
+        </p>
         <div className="flex justify-between items-center mt-2">
           <INumberFormat
             displayType="text"

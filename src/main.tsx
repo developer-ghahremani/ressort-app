@@ -1,5 +1,6 @@
 import "./assets/css/main.min.css";
 import "animate.css/animate.css";
+import "rc-slider/assets/index.css";
 
 import App from "./App";
 import { PersistGate } from "redux-persist/integration/react";

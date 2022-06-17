@@ -1,3 +1,7 @@
 .resort_item_container {
   @apply flex flex-row md:flex-col border p-4 rounded-lg;
 }
+
+.resort-item-title {
+  @apply text-sm md:overflow-hidden md:text-ellipsis md:whitespace-nowrap cursor-pointer hover:scale-105 duration-300;
+}

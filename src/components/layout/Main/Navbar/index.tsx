@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div className="bg-gray-100 py-4">
       <div className="md:max-w-4xl mx-4 md:mx-auto flex justify-between items-center">
-        <div className="flex items-center">
+        <Link className="flex items-center" to={pageNames.home}>
           <img
             src={LOGO}
             alt=""
@@ -35,7 +35,7 @@ const Navbar = () => {
             className="font-sedgwick text-xl mx-[1px]"
             value={t("general.logo")}
           />
-        </div>
+        </Link>
         <div className="flex">
           {menuOption.map((item, index, array) => (
             <Link

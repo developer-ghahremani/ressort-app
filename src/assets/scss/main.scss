@@ -4,10 +4,6 @@
 @tailwind utilities;
 @import "component";
 
-.resort-item-title {
-  @apply text-sm md:overflow-hidden md:text-ellipsis md:whitespace-nowrap;
-}
-
 .app-tag {
   @apply border rounded-lg px-3 py-1 cursor-pointer;
 }
